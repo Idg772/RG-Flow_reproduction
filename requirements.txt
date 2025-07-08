@@ -1,0 +1,17 @@
+# ———————————————————— Core deep‑learning stack ————————————————————
+torch>=2.2.0          # install the CPU or CUDA wheel that matches your system
+torchvision>=0.19.0   # must match the installed PyTorch major/minor version
+
+# ————————————————————— Scientific Python ——————————————————————
+numpy>=1.24
+scipy>=1.10           # not imported directly but often pulled in by others
+h5py>=3.10
+pillow>=10.2
+matplotlib>=3.8
+tqdm>=4.66
+
+# ——————————————————— Data loading / notebooks ———————————————————
+jupyter>=1.0          # meta‑package: notebook, lab, jupyter‑client, …
+ipykernel>=6.25
+# torchvision’s CelebA loader depends on the following:
+requests>=2.31        # (for the download utility)
