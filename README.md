@@ -1,5 +1,6 @@
 # IGF23 — RG‑Flow
-
+This is my Data Analysis project for the MPhil in Data Intensive Science at the University of Cambridge
+The aim of this work is to investigate and reproduce the results of "RG-Flow: A hierarchical and explainable flow model based on renormalization group and sparse prior" ([arXiv:2010.00029](https://arxiv.org/abs/2010.00029)).
 A PyTorch implementation of Renormalization Group Flow (RG-Flow) for generative modeling with hierarchical image synthesis.
 
 ---
