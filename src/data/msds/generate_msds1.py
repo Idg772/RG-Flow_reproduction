@@ -164,8 +164,7 @@ def get_msds1_dataloaders(
 # For direct execution testing
 if __name__ == "__main__":
     print("Testing MSDS1 dataset generation...")
-    test_dir = Path("./test_data")
-    loaders = get_msds1_dataloaders(test_dir, batch_size=32, num_workers=2)
+    loaders = get_msds1_dataloaders(default_data_dir, batch_size=32, num_workers=2)
     print(f"Successfully created dataloaders: {len(loaders)} loaders")
     
     # Test loading a batch
